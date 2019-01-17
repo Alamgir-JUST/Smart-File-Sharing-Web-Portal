@@ -1,0 +1,13 @@
+@charset "UTF-8";
+
+	.fpart h2{
+	background: #f4f4f4 none repeat scroll 0 0;
+    font-family: "Times New Roman", Times, serif;
+  	box-shadow: 2px 2px 0 1px #999;
+  	color: #010002;
+  	margin: 10px auto 25px;
+  	padding: 4px;
+  	text-align: center;
+  	width: 620px;
+	}
+	

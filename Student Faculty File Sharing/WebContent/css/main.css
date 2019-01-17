@@ -1,0 +1,92 @@
+@charset "UTF-8";
+.menu{background:#2e3644;min-height: 53px;font-family: "Times New Roman", Times, serif;}
+.menu ul{margin:0;padding: 0;list-style: none}
+.menu ul li{float: left;border-left: 1px solid #34B98B;border-right: 1px solid #B5D46;position: relative;}
+.menu ul li:first-child{border-left: 0px solid}
+.menu ul li:last-child{border-right: 0px solid}
+.menu ul li a{color:#fff;display: block;padding: 15px;text-decoration: none;}
+.menu ul li a:hover{background: #1B5D46;text-decoration: none;}
+
+.menu ul li ul{position: absolute;left: -999999px}
+.menu ul li:hover ul{left: 0px}
+.menu ul li ul{background: #fff}
+.menu ul li ul li{float:none;width: 250px;border-bottom: 1px solid #37c594;border-right: 0px solid}
+.menu ul li ul li:last-child{border-bottom: : 0px solid #37c594}
+.menu ul li ul li a{background:#2D9F77;color: #fff; padding:5px 15px}
+.menu ul li ul li a:hover{}
+.imagepart{
+
+}
+.imagepart img{
+	width:100%;
+	height: auto;
+}
+
+.main p{
+	font-family: "Times New Roman", Times, serif;
+	font-size:20px;
+}
+.starting{
+	display: block;
+
+}
+.starting h2{
+	background: #f4f4f4 none repeat scroll 0 0;
+    font-family: "Times New Roman", Times, serif;
+  	box-shadow: 2px 2px 0 1px #999;
+  	color: #010002;
+  	margin: 10px auto 25px;
+  	padding: 4px;
+  	text-align: center;
+  	width: 620px;
+	 
+}
+input[type="submit"]{
+	background-color: #a3a5af; 
+    border: none;
+    color: white;
+    padding: 8px 50px;
+    border-radius: 25px;
+    border:1px solid blue;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top:20px;
+    margin-left:90px;
+}
+input[type="text"], input[type="password"] {
+	background-color: ; /* Green */
+    padding: 5px 60px;
+    border-radius: 20px;
+    border:1px solid blue;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-bottom:20px;
+}
+input[type="file"]{
+	background-color: #a3a5af; /* Green */
+    padding: 3px 9px;
+    border-radius: 20px;
+    border:1px solid blue;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top:-10px;
+    margin-bottom:10px;
+}
+select{
+	padding: 3px 9px;
+    border-radius: 20px;
+    border:1px solid blue;
+	
+}
+hr.style13 {
+	height: 10px;
+	border: 0;
+	box-shadow: 0 10px 10px -10px #8c8b8b inset;
+}
+

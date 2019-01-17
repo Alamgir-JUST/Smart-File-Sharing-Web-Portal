@@ -1,0 +1,68 @@
+@charset "UTF-8";
+
+.main{
+	
+}
+.main p{
+	font-family: "Times New Roman", Times, serif;
+	font-size:20px;
+}
+.starting{
+	display: block;
+
+}
+.starting h2{
+	background: #f4f4f4 none repeat scroll 0 0;
+    font-family: "Times New Roman", Times, serif;
+  	box-shadow: 2px 2px 0 1px #999;
+  	color: #010002;
+  	margin: 10px auto 25px;
+  	padding: 4px;
+  	text-align: center;
+  	width: 620px;
+	 
+}
+input[type="submit"]{
+	background-color: #a3a5af; 
+    border: none;
+    color: white;
+    padding: 8px 50px;
+    border-radius: 25px;
+    border:1px solid blue;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top:20px;
+    margin-left:90px;
+}
+input[type="text"], input[type="password"] {
+	background-color: ; /* Green */
+    padding: 5px 60px;
+    border-radius: 20px;
+    border:1px solid blue;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-bottom:10px;
+}
+input[type="file"]{
+	background-color: #a3a5af; /* Green */
+    padding: 3px 9px;
+    border-radius: 20px;
+    border:1px solid blue;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top:-10px;
+    margin-bottom:10px;
+}
+select{
+	padding: 3px 9px;
+    border-radius: 20px;
+    border:1px solid blue;
+	
+}
+

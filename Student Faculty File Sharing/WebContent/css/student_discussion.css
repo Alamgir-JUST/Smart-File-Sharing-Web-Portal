@@ -1,0 +1,64 @@
+@charset "UTF-8";
+.view_message{
+	
+	font-family: "Times New Roman", Times, serif;
+	
+}
+
+.starting{
+	display: block;
+
+}
+.starting h2{
+	background: #f4f4f4 none repeat scroll 0 0;
+    font-family: "Times New Roman", Times, serif;
+  	box-shadow: 2px 2px 0 1px #999;
+  	color: #010002;
+  	margin: 10px auto 25px;
+  	padding: 4px;
+  	text-align: center;
+  	width: 620px;
+	 
+}
+.message_part{
+	
+	margin-top:100px;
+}
+.message_part p{
+	margin-top:10px;
+	font-size:27px;
+}
+input[type="text"]{
+  border: 1px solid #ddd;
+  border-radius: 10px;
+   font-size:20px;
+  padding: 10px;
+  color:black;
+  height:40px;
+  width: 400px;
+}
+
+input[type="submit"] {
+  
+  background-color: #a3a5af; /* Green */
+
+    color: white;
+    padding: 8px 30px;
+     border: 1px solid #ddd;
+ 	 border-radius: 20px;
+	font-family: "Times New Roman", Times, serif;
+    border:1px solid blue;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin-bottom:40px;
+}
+input[type="file"]{
+  border: 1px solid #800040;
+  border-radius: 8px;
+  color:black;
+  height:40px;
+  margin-left:20px;
+  width: 200px;
+}

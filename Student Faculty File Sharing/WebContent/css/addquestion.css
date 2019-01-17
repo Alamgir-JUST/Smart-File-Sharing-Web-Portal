@@ -1,0 +1,72 @@
+@charset "UTF-8";
+
+.main{
+	min-height:300px;
+}
+.starting{
+	display: block;
+	margin-top:-40px;
+
+}
+.starting h2{
+	background: #f4f4f4 none repeat scroll 0 0;
+    font-family: "Times New Roman", Times, serif;
+  	box-shadow: 2px 2px 0 1px #999;
+  	color: #010002;
+  	margin: 10px auto 25px;
+  	padding: 4px;
+  	text-align: center;
+  	width: 620px;
+	 
+}
+.starting hr{
+	display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+.addpart{
+	 
+    border:3px solid black;
+    font-family: "Times New Roman", Times, serif;
+    color:black;
+    font-size:20px;
+}
+input[type="text"], input[type="password"] {
+  border: 1px solid #ddd;
+  margin-bottom: 10px;
+  padding: 5px;
+  height:40px;
+  width: 400px;
+}
+input[type="submit"] {
+  
+  background-color: #a3a5af; /* Green */
+    border: none;
+    color: white;
+    padding: 8px 50px;
+	font-family: "Times New Roman", Times, serif;
+    border:1px solid blue;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin-top:20px;
+    margin-bottom:20px;
+    margin-left:20px;
+}
+.button{
+	background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+.addpart table tr td button{
+	background-color: #4CAF50; /* Green */
+}

@@ -1,0 +1,18 @@
+@charset "UTF-8";
+
+ input[type="submit"] {
+  
+  background-color: #a3a5af; /* Green */
+    border: none;
+    color: white;
+    padding: 8px 50px;
+	font-family: "Times New Roman", Times, serif;
+    border:1px solid blue;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin-top:20px;
+    margin-bottom:20px;
+    margin-left:20px;
+}
