@@ -15,7 +15,7 @@
   </context-param>
   <context-param>
     <param-name>pass</param-name>
-    <param-value>alam58280</param-value>
+    <param-value>your pass</param-value>
   </context-param>
   <welcome-file-list>
     <welcome-file>index.html</welcome-file>
