@@ -8,5 +8,5 @@
   }, {
     posterType: 'jpg'
   });
-//Alamgir, CSE, JUST
+
 })(jQuery); // End of use strict
